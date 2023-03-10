@@ -1,0 +1,282 @@
+2023-02-07 21:53:10.927  INFO 21480 --- [main] t.e._.a.AssuranceProjectApplication      : Starting AssuranceProjectApplication using Java 19.0.2 on LAPTOP-9UL745OL with PID 21480 (C:\Spring Workspace\AssuranceProject\target\classes started by Hanen Azzouz in C:\Spring Workspace\AssuranceProject)
+2023-02-07 21:53:10.939  INFO 21480 --- [main] t.e._.a.AssuranceProjectApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-02-07 21:53:11.715  INFO 21480 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-07 21:53:11.768  INFO 21480 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 3 JPA repository interfaces.
+2023-02-07 21:53:12.372  INFO 21480 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-07 21:53:12.382  INFO 21480 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-07 21:53:12.382  INFO 21480 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-07 21:53:12.612  INFO 21480 --- [main] o.a.c.c.C.[.[localhost].[/assurance]     : Initializing Spring embedded WebApplicationContext
+2023-02-07 21:53:12.616  INFO 21480 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1614 ms
+2023-02-07 21:53:12.784  INFO 21480 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-07 21:53:12.832  INFO 21480 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-07 21:53:12.976  INFO 21480 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-07 21:53:13.087  INFO 21480 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-07 21:53:13.216  INFO 21480 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-07 21:53:13.236  INFO 21480 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2023-02-07 21:53:13.817  INFO 21480 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-07 21:53:13.824  INFO 21480 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-07 21:53:14.328  WARN 21480 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-07 21:53:15.168  INFO 21480 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/assurance'
+2023-02-07 21:53:15.181  INFO 21480 --- [main] t.e._.a.AssuranceProjectApplication      : Started AssuranceProjectApplication in 4.7 seconds (JVM running for 5.589)
+2023-02-07 21:54:04.185  INFO 21480 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+
+2023-02-07 21:54:04.187  INFO 21480 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+
+2023-02-07 21:54:04.189  INFO 21480 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+le beneficiaire dont le cin est  154789 a 1 assurances
+
+2023-02-07 21:55:04.022  INFO 21480 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+
+2023-02-07 21:55:04.024  INFO 21480 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+
+2023-02-07 21:55:04.026  INFO 21480 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+le beneficiaire dont le cin est  154789 a 1 assurances
+
+2023-02-07 21:56:04.020  INFO 21480 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+
+2023-02-07 21:56:04.022  INFO 21480 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+
+2023-02-07 21:56:04.025  INFO 21480 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+le beneficiaire dont le cin est  154789 a 1 assurances
+
+2023-02-07 21:57:04.016  INFO 21480 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+
+2023-02-07 21:57:04.019  INFO 21480 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+
+2023-02-07 21:57:04.021  INFO 21480 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+le beneficiaire dont le cin est  154789 a 1 assurances
+
+2023-02-07 21:57:11.986  INFO 21480 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-07 21:57:11.989  INFO 21480 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-07 21:57:11.998  INFO 21480 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-07 21:57:16.395  INFO 22520 --- [main] t.e._.a.AssuranceProjectApplication      : Starting AssuranceProjectApplication using Java 19.0.2 on LAPTOP-9UL745OL with PID 22520 (C:\Spring Workspace\AssuranceProject\target\classes started by Hanen Azzouz in C:\Spring Workspace\AssuranceProject)
+2023-02-07 21:57:16.399  INFO 22520 --- [main] t.e._.a.AssuranceProjectApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-02-07 21:57:17.018  INFO 22520 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-07 21:57:17.061  INFO 22520 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 3 JPA repository interfaces.
+2023-02-07 21:57:17.632  INFO 22520 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-07 21:57:17.661  INFO 22520 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-07 21:57:17.661  INFO 22520 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-07 21:57:17.913  INFO 22520 --- [main] o.a.c.c.C.[.[localhost].[/assurance]     : Initializing Spring embedded WebApplicationContext
+2023-02-07 21:57:17.913  INFO 22520 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1464 ms
+2023-02-07 21:57:18.043  INFO 22520 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-07 21:57:18.074  INFO 22520 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-07 21:57:18.200  INFO 22520 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-07 21:57:18.283  INFO 22520 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-07 21:57:18.387  INFO 22520 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-07 21:57:18.406  INFO 22520 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2023-02-07 21:57:18.917  INFO 22520 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-07 21:57:18.924  INFO 22520 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-07 21:57:19.367  WARN 22520 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-07 21:57:20.195  INFO 22520 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/assurance'
+2023-02-07 21:57:20.205  INFO 22520 --- [main] t.e._.a.AssuranceProjectApplication      : Started AssuranceProjectApplication in 4.145 seconds (JVM running for 4.903)
+2023-02-07 21:58:00.907  INFO 22520 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/assurance]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-07 21:58:00.908  INFO 22520 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-07 21:58:00.908  INFO 22520 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-02-07 21:58:01.418  INFO 22520 --- [http-nio-8080-exec-8] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 228 ms
+2023-02-07 21:58:04.146  INFO 22520 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+
+2023-02-07 21:58:04.149  INFO 22520 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+
+2023-02-07 21:58:04.151  INFO 22520 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+le beneficiaire dont le cin est  154789 a 1 assurances
+
+2023-02-07 21:59:04.005  INFO 22520 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+
+2023-02-07 21:59:04.005  INFO 22520 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+
+2023-02-07 21:59:04.005  INFO 22520 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+le beneficiaire dont le cin est  154789 a 1 assurances
+
+2023-02-07 22:00:04.033  INFO 22520 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+
+2023-02-07 22:00:04.035  INFO 22520 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+
+2023-02-07 22:00:04.037  INFO 22520 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+le beneficiaire dont le cin est  154789 a 1 assurances
+
+2023-02-07 22:01:04.010  INFO 22520 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+
+2023-02-07 22:01:04.011  INFO 22520 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+
+2023-02-07 22:01:04.013  INFO 22520 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+le beneficiaire dont le cin est  154789 a 1 assurances
+
+2023-02-07 22:02:04.020  INFO 22520 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+
+2023-02-07 22:02:04.022  INFO 22520 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+
+2023-02-07 22:02:04.024  INFO 22520 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+le beneficiaire dont le cin est  154789 a 1 assurances
+
+2023-02-07 22:03:04.011  INFO 22520 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+
+2023-02-07 22:03:04.014  INFO 22520 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+
+2023-02-07 22:03:04.016  INFO 22520 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+le beneficiaire dont le cin est  154789 a 1 assurances
+
+2023-02-07 22:04:04.024  INFO 22520 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+
+2023-02-07 22:04:04.026  INFO 22520 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+
+2023-02-07 22:04:04.028  INFO 22520 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+le beneficiaire dont le cin est  154789 a 1 assurances
+
+2023-02-07 22:05:04.018  INFO 22520 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+
+2023-02-07 22:05:04.020  INFO 22520 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+
+2023-02-07 22:05:04.021  INFO 22520 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+le beneficiaire dont le cin est  154789 a 1 assurances
+
+2023-02-07 22:06:04.015  INFO 22520 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+
+2023-02-07 22:06:04.018  INFO 22520 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+
+2023-02-07 22:06:04.020  INFO 22520 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+le beneficiaire dont le cin est  154789 a 1 assurances
+
+2023-02-07 22:07:04.006  INFO 22520 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+
+2023-02-07 22:07:04.007  INFO 22520 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+
+2023-02-07 22:07:04.009  INFO 22520 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+le beneficiaire dont le cin est  154789 a 1 assurances
+
+2023-02-07 22:07:40.315  INFO 22520 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-07 22:07:40.317  INFO 22520 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-07 22:07:40.322  INFO 22520 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-07 22:07:44.453  INFO 21716 --- [main] t.e._.a.AssuranceProjectApplication      : Starting AssuranceProjectApplication using Java 19.0.2 on LAPTOP-9UL745OL with PID 21716 (C:\Spring Workspace\AssuranceProject\target\classes started by Hanen Azzouz in C:\Spring Workspace\AssuranceProject)
+2023-02-07 22:07:44.456  INFO 21716 --- [main] t.e._.a.AssuranceProjectApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-02-07 22:07:45.055  INFO 21716 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-07 22:07:45.087  INFO 21716 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 3 JPA repository interfaces.
+2023-02-07 22:07:45.773  INFO 21716 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-07 22:07:45.780  INFO 21716 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-07 22:07:45.781  INFO 21716 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-07 22:07:45.936  INFO 21716 --- [main] o.a.c.c.C.[.[localhost].[/assurance]     : Initializing Spring embedded WebApplicationContext
+2023-02-07 22:07:45.936  INFO 21716 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1434 ms
+2023-02-07 22:07:46.075  INFO 21716 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-07 22:07:46.104  INFO 21716 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-07 22:07:46.216  INFO 21716 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-07 22:07:46.291  INFO 21716 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-07 22:07:46.392  INFO 21716 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-07 22:07:46.409  INFO 21716 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2023-02-07 22:07:46.880  INFO 21716 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-07 22:07:46.886  INFO 21716 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-07 22:07:47.392  WARN 21716 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-07 22:07:48.146  INFO 21716 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/assurance'
+2023-02-07 22:07:48.156  INFO 21716 --- [main] t.e._.a.AssuranceProjectApplication      : Started AssuranceProjectApplication in 4.039 seconds (JVM running for 4.662)
+2023-02-07 22:07:58.985  INFO 21716 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/assurance]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-07 22:07:58.986  INFO 21716 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-07 22:07:58.988  INFO 21716 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-02-07 22:07:59.361  INFO 21716 --- [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 196 ms
+2023-02-07 22:08:04.012  INFO 21716 --- [scheduling-1] t.e._.a.Aspect.LoggingAspect             : In method statistiques : 
+2023-02-07 22:08:04.171  INFO 21716 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+
+2023-02-07 22:08:04.171  INFO 21716 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+
+2023-02-07 22:08:04.171  INFO 21716 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+le beneficiaire dont le cin est  154789 a 1 assurances
+
+2023-02-07 22:08:04.171  INFO 21716 --- [scheduling-1] t.e._.a.Aspect.LoggingAspect             : Bon Courage!statistiques
+2023-02-07 22:08:31.008  INFO 21716 --- [http-nio-8080-exec-5] t.e._.a.Aspect.LoggingAspect             : In method getContratBF : 
+2023-02-07 22:08:31.028  INFO 21716 --- [http-nio-8080-exec-5] t.e._.a.Aspect.LoggingAspect             : Bon Courage!getContratBF
+2023-02-07 22:09:04.008  INFO 21716 --- [scheduling-1] t.e._.a.Aspect.LoggingAspect             : In method statistiques : 
+2023-02-07 22:09:04.017  INFO 21716 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+
+2023-02-07 22:09:04.019  INFO 21716 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+
+2023-02-07 22:09:04.021  INFO 21716 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+le beneficiaire dont le cin est  154789 a 1 assurances
+
+2023-02-07 22:09:04.021  INFO 21716 --- [scheduling-1] t.e._.a.Aspect.LoggingAspect             : Bon Courage!statistiques
+2023-02-07 22:10:01.951  INFO 21716 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-07 22:10:01.953  INFO 21716 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-07 22:10:01.958  INFO 21716 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-07 22:17:05.824  INFO 5748 --- [main] t.e._.a.AssuranceProjectApplication      : Starting AssuranceProjectApplication using Java 19.0.2 on LAPTOP-9UL745OL with PID 5748 (C:\Spring Workspace\AssuranceProject\target\classes started by Hanen Azzouz in C:\Spring Workspace\AssuranceProject)
+2023-02-07 22:17:05.828  INFO 5748 --- [main] t.e._.a.AssuranceProjectApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-02-07 22:17:06.496  INFO 5748 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-07 22:17:06.545  INFO 5748 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 3 JPA repository interfaces.
+2023-02-07 22:17:07.058  INFO 5748 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-07 22:17:07.065  INFO 5748 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-07 22:17:07.065  INFO 5748 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-07 22:17:07.234  INFO 5748 --- [main] o.a.c.c.C.[.[localhost].[/assurance]     : Initializing Spring embedded WebApplicationContext
+2023-02-07 22:17:07.235  INFO 5748 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1358 ms
+2023-02-07 22:17:07.364  INFO 5748 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-07 22:17:07.394  INFO 5748 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-07 22:17:07.497  INFO 5748 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-07 22:17:07.575  INFO 5748 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-07 22:17:07.676  INFO 5748 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-07 22:17:07.692  INFO 5748 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2023-02-07 22:17:08.151  INFO 5748 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-07 22:17:08.156  INFO 5748 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-07 22:17:08.591  WARN 5748 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-07 22:17:09.281  INFO 5748 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/assurance'
+2023-02-07 22:17:09.291  INFO 5748 --- [main] t.e._.a.AssuranceProjectApplication      : Started AssuranceProjectApplication in 3.794 seconds (JVM running for 4.479)
+2023-02-07 22:17:41.135  INFO 5748 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/assurance]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-07 22:17:41.136  INFO 5748 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-07 22:17:41.140  INFO 5748 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-02-07 22:17:41.485  INFO 5748 --- [http-nio-8080-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 201 ms
+2023-02-07 22:17:58.762  INFO 5748 --- [http-nio-8080-exec-4] t.e._.a.Aspect.LoggingAspect             : Bon Courage!getBeneficiaireByType
+2023-02-07 22:18:04.084  INFO 5748 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+
+2023-02-07 22:18:04.084  INFO 5748 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+
+2023-02-07 22:18:04.084  INFO 5748 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+le beneficiaire dont le cin est  154789 a 1 assurances
+
+2023-02-07 22:19:04.025  INFO 5748 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+
+2023-02-07 22:19:04.026  INFO 5748 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+
+2023-02-07 22:19:04.028  INFO 5748 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+le beneficiaire dont le cin est  154789 a 1 assurances
+
+2023-02-07 22:20:04.018  INFO 5748 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+
+2023-02-07 22:20:04.020  INFO 5748 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+
+2023-02-07 22:20:04.021  INFO 5748 --- [scheduling-1] t.e._.a.Services.Services                : le beneficiaire dont le cin est  654321 a 2 assurances
+le beneficiaire dont le cin est  123456 a 2 assurances
+le beneficiaire dont le cin est  154789 a 1 assurances
+
+2023-02-07 22:20:44.439  INFO 5748 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-07 22:20:44.441  INFO 5748 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-07 22:20:44.446  INFO 5748 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
