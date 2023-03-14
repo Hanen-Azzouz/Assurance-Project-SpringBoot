@@ -5,7 +5,7 @@ pipeline {
             maven "M2_HOME"
         }
     stages {
-        stage('Build') {
+        stage('Git Configuration') {
             steps {
                 git branch: 'main', url: 'https://github.com/Hanen-Azzouz/Assurance-Project-SpringBoot.git',
                 credentialsId: 'jenkins-assurance-token'
