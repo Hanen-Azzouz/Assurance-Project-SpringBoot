@@ -19,7 +19,7 @@ pipeline {
 
         stage('Mvn-ClEAN') {
             steps {
-                 sh """mvn clean"""
+                 sh """mvn clean install"""
                     }
                             }
         stage('Mvn-COMPILE') {
@@ -35,17 +35,6 @@ pipeline {
                    }
                               }
 
-        stage("verify tooling")    {
-              steps{
-                      sh '''
-                       docker version
-                      sudo docker info
-                     sudo docker compose version
-                      sudo jq --version
-                      '''
-
-                         }
-                                         }
 
 
 
