@@ -37,7 +37,7 @@ pipeline {
 
         stage('Build Docker image'){
         steps {
-          sh """docker build -t AzzouzHanen2023/assuranceproject:0.0.1 ."""
+          sh """ sudo docker build -t azzouzhanen2023/assuranceproject:0.0.1 ."""
             }
         }
 
