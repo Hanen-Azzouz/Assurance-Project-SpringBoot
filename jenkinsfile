@@ -40,10 +40,18 @@ pipeline {
 
           sh """ docker build -t azzouzhanen2023/assuranceproject:0.0.1 ."""
 
+            }
+                                   }
+
+stage('Push Docker Image'){
+        steps {
+           withCredentials([string(credentialsId: 'DockerHub-pwd', variable: 'dockerhubPWD')]){
+          sh " docker login -u azzouzhanen2023 -p ${dockerhubPWD}"
+          }
+          sh 'docker push  azzouzhanen2023/assuranceproject:0.0.1 '
 
             }
-        }
-
+                                   }
 
 
 
