@@ -35,6 +35,21 @@ pipeline {
                    }
                               }
 
+        stage('Build Docker image'){
+          sh 'docker build -t azzouzhanen2023/AssuranceProject:0.0.1 .'
+
+        }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
