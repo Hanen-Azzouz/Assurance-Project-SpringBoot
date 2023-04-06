@@ -37,7 +37,7 @@ pipeline {
 
         stage('Build Docker image'){
         steps {
-        withCredentials([string(credentialsId: 'DockerHub-pwd', variable: 'dockerhubPWD')])
+
          { sh """ docker build -t azzouzhanen2023/assuranceproject:0.0.1 ."""}
 
 
